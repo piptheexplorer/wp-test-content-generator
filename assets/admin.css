@@ -1,0 +1,87 @@
+.wptcg-wrap {
+    max-width: 1040px;
+}
+
+.wptcg-intro {
+    max-width: 760px;
+    font-size: 15px;
+}
+
+.wptcg-card {
+    max-width: 920px;
+    margin-top: 20px;
+    padding: 24px 28px;
+    background: #fff;
+    border: 1px solid #dcdcde;
+    border-radius: 8px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+}
+
+.wptcg-card > h2:first-child {
+    margin-top: 0;
+}
+
+.wptcg-section {
+    margin-top: 28px;
+    padding-top: 24px;
+    border-top: 1px solid #e2e4e7;
+}
+
+.wptcg-field-label {
+    display: block;
+    margin-top: 16px;
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+
+.wptcg-taxonomy-panel {
+    display: none;
+}
+
+.wptcg-taxonomy-box {
+    margin-top: 16px;
+    padding: 18px;
+    background: #f6f7f7;
+    border: 1px solid #dcdcde;
+    border-radius: 6px;
+}
+
+.wptcg-taxonomy-box h3 {
+    margin-top: 0;
+}
+
+.wptcg-taxonomy-box select[multiple],
+.wptcg-taxonomy-box textarea {
+    width: 100%;
+    max-width: 620px;
+}
+
+.wptcg-image-picker {
+    margin-top: 16px;
+}
+
+.wptcg-image-preview {
+    margin-bottom: 12px;
+}
+
+.wptcg-image-preview img {
+    display: block;
+    width: auto;
+    max-width: 320px;
+    max-height: 190px;
+    border: 1px solid #dcdcde;
+    border-radius: 6px;
+}
+
+#wptcg-remove-image {
+    margin-left: 10px;
+}
+
+#wptcg-thumbnail-warning {
+    display: none;
+    margin: 12px 0 18px;
+}
+
+.wptcg-cleanup-card {
+    margin-bottom: 40px;
+}
